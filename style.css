@@ -119,6 +119,10 @@ input, select {
     background: none;
 }
 
+html, body {
+    margin: 0;
+}
+
 body {
     font-family: 'Bungee', cursive, arial, sans-serif;
     display: flex;
