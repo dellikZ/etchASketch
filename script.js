@@ -25,17 +25,6 @@ function deleteGrid() {
     container.innerHTML = '';
 }
 
-function rainbowColor() {
-    let red = '';
-    let green = '';
-    let blue = '';
-
-    red = Math.floor(Math.random() * 256);
-    green = Math.floor(Math.random() * 256);
-    blue = Math.floor(Math.random() * 256);
-    let rgbColor = 'rgb(' + red +',' + green + ',' + blue + ')';
-    return rgbColor;
-}
 
 
 createGrid(16);
